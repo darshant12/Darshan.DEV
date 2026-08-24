@@ -78,18 +78,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 messageGroup.classList.remove('error');
             }
             
-            // Success State
+            // Success State (Submit via AJAX)
             if (isValid) {
-                const successMsg = document.getElementById('form-success');
-                successMsg.style.display = 'block';
-                
-                // Reset form
-                contactForm.reset();
-                
-                // Hide success message after 5 seconds
-                setTimeout(() => {
-                    successMsg.style.display = 'none';
-                }, 5000);
+                const formData = new FormData(contactForm);
+                fetch(contactForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                    if (response.ok) {
+                        const successMsg = document.getElementById('form-success');
+                        successMsg.style.display = 'block';
+                        contactForm.reset();
+                        setTimeout(() => {
+                            successMsg.style.display = 'none';
+                        }, 5000);
+                    } else {
+                        alert("Oops! There was a problem submitting your form");
+                    }
+                }).catch(error => {
+                    alert("Oops! There was a problem submitting your form");
+                });
             }
         });
     }
