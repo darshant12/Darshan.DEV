@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan T Kamati | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Darshan T Kamati, AI-ML Undergraduate and Full-Stack Developer.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">DARSHAN<span>.DEV</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-links">Home</a></li>
+                <li><a href="#about" class="nav-links">About</a></li>
+                <li><a href="#skills" class="nav-links">Skills</a></li>
+                <li><a href="#projects" class="nav-links">Projects</a></li>
+                <li><a href="#resume" class="nav-links">Resume</a></li>
+                <li><a href="#contact" class="nav-links btn-primary-outline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <h1>Hi, I'm <span class="highlight">DARSHAN T KAMATI</span></h1>
+                <h2>AI-ML Undergraduate & Developer</h2>
+                <p>Detail-oriented developer experienced across full-lifecycle software development, specializing in Python, SQL databases, and full-stack applications.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image hidden">
+                <div class="image-wrapper">
+                    <img src="assets/profile.jpg?v=3" alt="Darshan T Kamati">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="section-heading hidden">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content hidden">
+                <p>Hello! I'm Darshan T Kamati, an AI-ML undergraduate at Shri Madhwa Vadiraja Institute of Technology. I am passionate about developing practical software solutions by combining Artificial Intelligence with modern web technologies.</p>
+                <p>I have a proven track record in designing, implementing, and optimizing maintainable software products using Flask, RESTful APIs, and AI tools. I enjoy tackling database schema design, query optimization, and researching emerging technologies to deliver efficient, customer-focused solutions.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="section-heading hidden">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container hidden">
+                <div class="skill-category">
+                    <h3>Languages & Web</h3>
+                    <ul class="skill-list">
+                        <li>Python & Java</li>
+                        <li>JavaScript & C</li>
+                        <li>HTML5 / CSS3</li>
+                        <li>React</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Pandas & NumPy</li>
+                        <li>Scikit-Learn</li>
+                        <li>Matplotlib & Seaborn</li>
+                        <li>PowerBI</li>
+                        <li>Tableau</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Tools</h3>
+                    <ul class="skill-list">
+                        <li>Flask & FastAPI</li>
+                        <li>MySQL & MongoDB</li>
+                        <li>Git & GitHub</li>
+                        <li>Vercel</li>
+                        <li>RESTful APIs & SDLC</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-heading hidden">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="assets/project1.jpg?v=4" alt="VoiceIQ">
+                    </div>
+                    <div class="project-info">
+                        <h3>VoiceIQ – AI Voice Analysis</h3>
+                        <p>An AI platform using Random Forest models for real-time Gender, Emotion, and Age prediction. Extracted 22+ acoustic features via Librosa with sub-second processing.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>Python</span>
+                            <span>Scikit-Learn</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://voice-iq-tau.vercel.app/" target="_blank" class="btn btn-outline">Live Demo</a>
+                            <a href="https://github.com/darshant12/" target="_blank" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="assets/project2.jpg?v=4" alt="Online Voting Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>Online Voting Platform</h3>
+                        <p>Architected a secure voting portal using Flask and SQL, maintaining database integrity with SHA-256 auth and 100% duplicate-vote blocking.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://online-voting-system-tlqt.onrender.com/" target="_blank" class="btn btn-outline">Live Demo</a>
+                            <a href="https://github.com/darshant12/" target="_blank" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="assets/project3.jpg?v=4" alt="Smart Civic Connect">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Civic Connect</h3>
+                        <p>A scalable full-stack civic reporting application. Implemented a Glassmorphism UI and admin dashboard, speeding up complaint triage by 40%.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>REST API</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://smart-civic-1-15mt.onrender.com/" target="_blank" class="btn btn-outline">Live Demo</a>
+                            <a href="https://github.com/darshant12/" target="_blank" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="assets/project4.jpg?v=4" alt="Smart Krishi">
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Krishi</h3>
+                        <p>An agritech advisory platform providing yield guidance across 20+ crop varieties. Aggregated live market pricing data to support data-driven decisions.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://smart-krishi-3-djhd.onrender.com/" target="_blank" class="btn btn-outline">Live Demo</a>
+                            <a href="https://github.com/darshant12/" target="_blank" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section-padding">
+            <div class="section-heading hidden">
+                <h2>Education & Certifications</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="resume-content hidden">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2027</div>
+                        <div class="timeline-title">B.E. in Artificial Intelligence & Machine Learning</div>
+                        <div class="timeline-company">Shri Madhwa Vadiraja Institute of Technology (Udupi, Karnataka)</div>
+                        <p>Currently pursuing my undergraduate degree, focusing on AI algorithms, data science, and full-stack development methodologies.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Certifications</div>
+                        <div class="timeline-title">Professional Training</div>
+                        <div class="timeline-company">Various Platforms</div>
+                        <p>
+                            • Innovation and Design Thinking Course – ComedKares Innovation Hub<br>
+                            • Basics of Data Science – UniAthena & CIQ<br>
+                            • Java Course: Mastering the Fundamentals – Scaler Topics
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="assets/Darshan_Resume.pdf" class="btn btn-primary" download="Darshan_T_Kamati_Resume.pdf">Download Full Resume (PDF)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="section-heading hidden">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container hidden">
+                <p class="contact-text">I'm currently looking for new opportunities and internships. Whether you have a question, a project idea, or just want to connect, my inbox is always open!</p>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        <span class="error-msg" id="name-error">Name is required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        <span class="error-msg" id="email-error">Valid email is required</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                        <span class="error-msg" id="message-error">Message is required</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Say Hello</button>
+                    <div id="form-success" class="success-msg">Message sent successfully!</div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Designed & Built by Darshan T Kamati</p>
+            <div class="social-links">
+                <a href="https://github.com/darshant12/" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/darshan-t-kamati-523a94324" target="_blank">LinkedIn</a>
+                <a href="mailto:darshantkamati@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
