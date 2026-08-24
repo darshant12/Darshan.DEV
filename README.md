@@ -3,8 +3,7 @@
 A complete, responsive personal portfolio website built to showcase my skills, projects, and professional background.
 
 ## 🚀 Live Demo
-*(You can add your live hosting link here once deployed, e.g., GitHub Pages or Netlify)*
-
+https://personal-portfolio-aqpm.vercel.app/
 ## 🎯 Objective
 The primary objective of this project was to combine HTML structure, CSS styling, responsive design principles, and basic JavaScript into a practical, professional portfolio that highlights my capabilities as an AI-ML Undergraduate and Full-Stack Developer.
 
@@ -34,14 +33,9 @@ The primary objective of this project was to combine HTML structure, CSS styling
 - **CSS3** (Flexbox, Grid, Animations)
 - **JavaScript** (Vanilla JS, DOM Manipulation)
 
-## ⚙️ How to Run Locally
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
-3. Open `index.html` in your web browser, or use a local server:
-   ```bash
-   python -m http.server 8080
+## ⚙️ How to Run
    ```
-4. Visit `http://localhost:8080` in your browser.
+4. Visit https://personal-portfolio-aqpm.vercel.app/
 
 ---
 *Developed by Darshan T Kamati*
